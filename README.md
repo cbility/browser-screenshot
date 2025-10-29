@@ -3,19 +3,30 @@
 
 Automate browser screenshots for a list of URLs using Playwright.
 
+**Prerequisites:**
+- Python 3.8+ (available from [Microsoft Store](https://apps.microsoft.com/detail/9NCVDN91XZQP) )
+
+- [uv](https://docs.astral.sh/uv/getting-started/installation) (for fast Python package management)
+
 ## Installation
 
-Open a terminal in the project root and run:
+First, clone this repository locally. Open a command line in the directory where you would like to store it and run 
+```powershell
+git clone https://github.com/cbility/browser-screenshot
+```
+then
+```powershell
+cd .\browser-screenshot\
+```
+
+To install the project run:
 
 ```powershell
 uv install
 uv run playwright install
 ```
 
-**Prerequisites:**
-- Python 3.8+
-- [uv](https://github.com/astral-sh/uv) (for fast Python package management)
-- Playwright (installed via above command)
+
 
 ## Configuration
 
