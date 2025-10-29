@@ -19,13 +19,11 @@ then
 cd .\browser-screenshot\
 ```
 
-To install the project run:
+To install required browser binaries run:
 
 ```powershell
-uv install
 uv run playwright install
 ```
-
 
 
 ## Configuration
