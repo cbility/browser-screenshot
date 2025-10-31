@@ -4,9 +4,8 @@
 Automate browser screenshots for a list of URLs using Playwright.
 
 **Prerequisites:**
-- Python 3.8+ (available from [Microsoft Store](https://apps.microsoft.com/detail/9NCVDN91XZQP) )
 
-- [uv](https://docs.astral.sh/uv/getting-started/installation) (for fast Python package management)
+- [uv](https://docs.astral.sh/uv/getting-started/installation) (for fast Python package management) ( note - you do not need to install Python separately. uv will automatically install it if missing)
 
 ## Installation
 
